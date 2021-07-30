@@ -45,7 +45,7 @@ ipeline {
            
             steps {
          
-                    sh './shiftleft iac-assessment -l S3Bucket should have encryption.serverSideEncryptionRules -p ./terraform'
+                    sh './shiftleft iac-assessment -p hashidemoday/ -r -64'
                     
               }
             }
