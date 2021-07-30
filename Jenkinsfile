@@ -1,8 +1,8 @@
 ipeline {
       agent any
       environment {
-           CHKP_CLOUDGUARD_ID = credentials("726ebf98-58ff-4ad0-a4bd-cc71b8663cae")
-           CHKP_CLOUDGUARD_SECRET = credentials("tbgzej56x4bqxogzxytht5wqT")
+            CHKP_CLOUDGUARD_ID = credentials("CHKP_CLOUDGUARD_ID")
+           CHKP_CLOUDGUARD_SECRET = credentials("CHKP_CLOUDGUARD_SECRET")
         }
         
   stages {
