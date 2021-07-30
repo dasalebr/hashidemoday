@@ -45,7 +45,7 @@ ipeline {
            
             steps {
          
-                    sh './shiftleft iac-assessment -p hashidemoday/ -r -64'
+                    sh './shiftleft iac-assessment -p terraform/ -r -64'
                     
               }
             }
