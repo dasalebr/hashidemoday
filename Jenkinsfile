@@ -12,7 +12,7 @@ Pipeline {
     
            steps {
                  
-              echo "checking the file"
+            
               
              checkout scm
            
@@ -52,4 +52,3 @@ Pipeline {
   } 
 }
 
-}
