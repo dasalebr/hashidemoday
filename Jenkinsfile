@@ -1,7 +1,7 @@
 Pipeline {
       agent any
       environment {
-            CHKP_CLOUDGUARD_ID = credentials("CHKP_CLOUDGUARD_ID")
+           CHKP_CLOUDGUARD_ID = credentials("CHKP_CLOUDGUARD_ID")
            CHKP_CLOUDGUARD_SECRET = credentials("CHKP_CLOUDGUARD_SECRET")
         }
         
